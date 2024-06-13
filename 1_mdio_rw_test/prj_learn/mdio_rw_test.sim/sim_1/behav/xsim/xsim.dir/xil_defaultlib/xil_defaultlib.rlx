@@ -1,0 +1,10 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/prj_learn/mdio_rw_test.sim/sim_1/behav/xsim/glbl.v,1716023595,verilog,,,,glbl,,,,,,,,
+D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/rtl/mdio_ctrl.v,1716023595,verilog,,D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/rtl/mdio_dri.v,,mdio_ctrl,,,,,,,,
+D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/rtl/mdio_dri.v,1716023595,verilog,,D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/rtl/mdio_rw_test.v,,mdio_dri,,,,,,,,
+D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/rtl/mdio_rw_test.v,1716023595,verilog,,D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/sim/mdio_slave_interface.v,,mdio_rw_test,,,,,,,,
+D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/sim/mdio_slave_interface.v,1716023595,verilog,,D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/sim/tb_mdio_rw_test.v,,mdio_slave_interface,,,,,,,,
+D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/sim/tb_mdio_rw_test.v,1716023595,verilog,,,,tb_mdio_rw_test,,,,,,,,

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat May 18 18:42:45 2024
+# Process ID: 2288
+# Current directory: D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/prj_learn/mdio_rw_test.runs/synth_1
+# Command line: vivado.exe -log mdio_rw_test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mdio_rw_test.tcl
+# Log file: D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/prj_learn/mdio_rw_test.runs/synth_1/mdio_rw_test.vds
+# Journal file: D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/prj_learn/mdio_rw_test.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mdio_rw_test.tcl -notrace

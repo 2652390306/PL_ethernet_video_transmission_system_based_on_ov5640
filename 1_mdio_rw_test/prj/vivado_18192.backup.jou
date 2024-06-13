@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat May 11 20:06:25 2024
+# Process ID: 18192
+# Current directory: C:/FPGA/1_Prj_PHD/2_eth/38_mdio_rw_test/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17112 C:\FPGA\1_Prj_PHD\2_eth\38_mdio_rw_test\prj\mdio_rw_test.xpr
+# Log file: C:/FPGA/1_Prj_PHD/2_eth/38_mdio_rw_test/prj/vivado.log
+# Journal file: C:/FPGA/1_Prj_PHD/2_eth/38_mdio_rw_test/prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/FPGA/1_Prj_PHD/2_eth/38_mdio_rw_test/prj/mdio_rw_test.xpr
+update_compile_order -fileset sources_1
+save_project_as mdio_rw_test C:/FPGA/1_Prj_PHD/2_eth/38_mdio_rw_test/prj_bup -force
+launch_simulation
+source tb_mdio_rw_test.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb_mdio_rw_test/mdio_rw_test_inst/sys_clk}} {{/tb_mdio_rw_test/mdio_rw_test_inst/sys_rst_n}} {{/tb_mdio_rw_test/mdio_rw_test_inst/eth_mdc}} {{/tb_mdio_rw_test/mdio_rw_test_inst/eth_mdio}} {{/tb_mdio_rw_test/mdio_rw_test_inst/eth_rst_n}} {{/tb_mdio_rw_test/mdio_rw_test_inst/touch_key}} {{/tb_mdio_rw_test/mdio_rw_test_inst/led}} {{/tb_mdio_rw_test/mdio_rw_test_inst/op_exec}} {{/tb_mdio_rw_test/mdio_rw_test_inst/op_rh_wl}} {{/tb_mdio_rw_test/mdio_rw_test_inst/op_addr}} {{/tb_mdio_rw_test/mdio_rw_test_inst/op_wr_data}} {{/tb_mdio_rw_test/mdio_rw_test_inst/op_done}} {{/tb_mdio_rw_test/mdio_rw_test_inst/op_rd_data}} {{/tb_mdio_rw_test/mdio_rw_test_inst/op_rd_ack}} {{/tb_mdio_rw_test/mdio_rw_test_inst/dri_clk}} 
+relaunch_sim
+run all
+current_wave_config {Untitled 1}
+add_wave {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/clk}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/rst_n}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_exec}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_rh_wl}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_addr}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_wr_data}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_done}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_rd_data}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_rd_ack}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/dri_clk}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/eth_mdc}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/eth_mdio}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/cur_state}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/next_state}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/clk_cnt}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/wr_data_t}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/addr_t}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/cnt}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_done}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_code}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/mdio_dir}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/mdio_out}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/rd_data_t}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/mdio_in}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/clk_divide}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/PHY_ADDR}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/CLK_DIV}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_idle}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_pre}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_start}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_addr}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_wr_data}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_rd_data}} 
+relaunch_sim
+run all
+save_wave_config {C:/FPGA/1_Prj_PHD/2_eth/38_mdio_rw_test/prj_bup/tb_mdio_rw_test_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/FPGA/1_Prj_PHD/2_eth/38_mdio_rw_test/prj_bup/tb_mdio_rw_test_behav.wcfg
+set_property xsim.view C:/FPGA/1_Prj_PHD/2_eth/38_mdio_rw_test/prj_bup/tb_mdio_rw_test_behav.wcfg [get_filesets sim_1]
+save_wave_config {C:/FPGA/1_Prj_PHD/2_eth/38_mdio_rw_test/prj_bup/tb_mdio_rw_test_behav.wcfg}
+close_sim

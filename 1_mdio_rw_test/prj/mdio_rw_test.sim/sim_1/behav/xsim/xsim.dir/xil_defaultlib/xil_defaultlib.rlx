@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+E:/FPGA/wang/7020/25_mdio_rw_test/prj/mdio_rw_test.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+E:/FPGA/wang/7020/25_mdio_rw_test/rtl/mdio_ctrl.v,1686103332,verilog,,E:/FPGA/wang/7020/25_mdio_rw_test/rtl/mdio_dri.v,,mdio_ctrl,,,,,,,,
+E:/FPGA/wang/7020/25_mdio_rw_test/rtl/mdio_dri.v,1684808506,verilog,,E:/FPGA/wang/7020/25_mdio_rw_test/rtl/mdio_rw_test.v,,mdio_dri,,,,,,,,
+E:/FPGA/wang/7020/25_mdio_rw_test/rtl/mdio_rw_test.v,1684737330,verilog,,E:/FPGA/wang/7020/25_mdio_rw_test/sim/mdio_slave_interface.v,,mdio_rw_test,,,,,,,,
+E:/FPGA/wang/7020/25_mdio_rw_test/sim/mdio_slave_interface.v,1685501433,verilog,,E:/FPGA/wang/7020/25_mdio_rw_test/sim/tb_mdio_rw_test.v,,mdio_slave_interface,,,,,,,,
+E:/FPGA/wang/7020/25_mdio_rw_test/sim/tb_mdio_rw_test.v,1686297479,verilog,,,,tb_mdio_rw_test,,,,,,,,

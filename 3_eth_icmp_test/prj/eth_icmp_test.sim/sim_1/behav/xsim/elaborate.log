@@ -1,0 +1,26 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: G:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 670fa7ef6c8c4b3ca1b5ada7562233d4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_icmp_behav xil_defaultlib.tb_icmp xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'tx_data' [E:/FPGA/wang/7020/27_eth_icmp_test/sim/tb_icmp.v:164]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/FPGA/wang/7020/27_eth_icmp_test/rtl/icmp/icmp.v" Line 23. Module icmp(BOARD_IP=32'b11000000101010000000000100001010,DES_IP=32'b11000000101010000000000100001010) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/FPGA/wang/7020/27_eth_icmp_test/rtl/icmp/icmp_rx.v" Line 23. Module icmp_rx(BOARD_IP=32'b11000000101010000000000100001010) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/FPGA/wang/7020/27_eth_icmp_test/rtl/icmp/icmp_tx.v" Line 23. Module icmp_tx(BOARD_IP=32'b11000000101010000000000100001010,DES_IP=32'b11000000101010000000000100001010,ECHO_REPLY=8'b01000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/FPGA/wang/7020/27_eth_icmp_test/rtl/arp/crc32_d8.v" Line 22. Module crc32_d8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/FPGA/wang/7020/27_eth_icmp_test/rtl/icmp/icmp.v" Line 23. Module icmp(BOARD_IP=32'b11000000101010000000000100001010,DES_IP=32'b11000000101010000000000100001010) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/FPGA/wang/7020/27_eth_icmp_test/rtl/icmp/icmp_rx.v" Line 23. Module icmp_rx(BOARD_IP=32'b11000000101010000000000100001010) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/FPGA/wang/7020/27_eth_icmp_test/rtl/icmp/icmp_tx.v" Line 23. Module icmp_tx(BOARD_IP=32'b11000000101010000000000100001010,DES_IP=32'b11000000101010000000000100001010,ECHO_REPLY=8'b01000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/FPGA/wang/7020/27_eth_icmp_test/rtl/arp/crc32_d8.v" Line 22. Module crc32_d8 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.icmp_rx(BOARD_IP=32'b11000000101...
+Compiling module xil_defaultlib.icmp_tx(BOARD_IP=32'b11000000101...
+Compiling module xil_defaultlib.crc32_d8
+Compiling module xil_defaultlib.icmp(BOARD_IP=32'b11000000101010...
+Compiling module xil_defaultlib.tb_icmp
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_icmp_behav

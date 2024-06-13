@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat May 18 18:26:22 2024
+# Process ID: 20320
+# Current directory: D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent38688 D:\phd\FPGA\FPGA\FPGA_P\2_eth\38_mdio_rw_test\prj\mdio_rw_test.xpr
+# Log file: D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/prj/vivado.log
+# Journal file: D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/prj/mdio_rw_test.xpr
+update_compile_order -fileset sources_1
+save_project_as mdio_rw_test D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/prj/prj_learn -force

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jul  3 13:30:53 2023
+# Process ID: 15980
+# Current directory: E:/FPGA/wang/7020/26_eth_arp_test/prj/eth_arp_test.runs/impl_1
+# Command line: vivado.exe -log eth_arp_test.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source eth_arp_test.tcl -notrace
+# Log file: E:/FPGA/wang/7020/26_eth_arp_test/prj/eth_arp_test.runs/impl_1/eth_arp_test.vdi
+# Journal file: E:/FPGA/wang/7020/26_eth_arp_test/prj/eth_arp_test.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source eth_arp_test.tcl -notrace

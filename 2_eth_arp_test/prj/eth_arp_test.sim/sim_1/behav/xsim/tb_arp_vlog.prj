@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../rtl/arp/arp.v" \
+"../../../../../rtl/arp/arp_rx.v" \
+"../../../../../rtl/arp/arp_tx.v" \
+"../../../../../rtl/arp/crc32_d8.v" \
+"../../../../../sim/tb/tb_arp.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_mdio_rw_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_mdio_rw_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="474666fs"></ZoomStartTime>
+      <ZoomEndTime time="1084667fs"></ZoomEndTime>
+      <Cursor1Time time="774666fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_exec" type="logic">
+      <obj_property name="ElementShortName">op_exec</obj_property>
+      <obj_property name="ObjectShortName">op_exec</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_rh_wl" type="logic">
+      <obj_property name="ElementShortName">op_rh_wl</obj_property>
+      <obj_property name="ObjectShortName">op_rh_wl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_addr" type="array">
+      <obj_property name="ElementShortName">op_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">op_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_wr_data" type="array">
+      <obj_property name="ElementShortName">op_wr_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">op_wr_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_done" type="logic">
+      <obj_property name="ElementShortName">op_done</obj_property>
+      <obj_property name="ObjectShortName">op_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_rd_data" type="array">
+      <obj_property name="ElementShortName">op_rd_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">op_rd_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_rd_ack" type="logic">
+      <obj_property name="ElementShortName">op_rd_ack</obj_property>
+      <obj_property name="ObjectShortName">op_rd_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/dri_clk" type="logic">
+      <obj_property name="ElementShortName">dri_clk</obj_property>
+      <obj_property name="ObjectShortName">dri_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/eth_mdc" type="logic">
+      <obj_property name="ElementShortName">eth_mdc</obj_property>
+      <obj_property name="ObjectShortName">eth_mdc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/eth_mdio" type="logic">
+      <obj_property name="ElementShortName">eth_mdio</obj_property>
+      <obj_property name="ObjectShortName">eth_mdio</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/cur_state" type="array">
+      <obj_property name="ElementShortName">cur_state[5:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_state[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[5:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/clk_cnt" type="array">
+      <obj_property name="ElementShortName">clk_cnt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/wr_data_t" type="array">
+      <obj_property name="ElementShortName">wr_data_t[15:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_t[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/addr_t" type="array">
+      <obj_property name="ElementShortName">addr_t[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_t[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[6:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_done" type="logic">
+      <obj_property name="ElementShortName">st_done</obj_property>
+      <obj_property name="ObjectShortName">st_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_code" type="array">
+      <obj_property name="ElementShortName">op_code[1:0]</obj_property>
+      <obj_property name="ObjectShortName">op_code[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/mdio_dir" type="logic">
+      <obj_property name="ElementShortName">mdio_dir</obj_property>
+      <obj_property name="ObjectShortName">mdio_dir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/mdio_out" type="logic">
+      <obj_property name="ElementShortName">mdio_out</obj_property>
+      <obj_property name="ObjectShortName">mdio_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/rd_data_t" type="array">
+      <obj_property name="ElementShortName">rd_data_t[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_t[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/mdio_in" type="logic">
+      <obj_property name="ElementShortName">mdio_in</obj_property>
+      <obj_property name="ObjectShortName">mdio_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/clk_divide" type="array">
+      <obj_property name="ElementShortName">clk_divide[5:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_divide[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/PHY_ADDR" type="array">
+      <obj_property name="ElementShortName">PHY_ADDR[4:0]</obj_property>
+      <obj_property name="ObjectShortName">PHY_ADDR[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/CLK_DIV" type="array">
+      <obj_property name="ElementShortName">CLK_DIV[5:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_DIV[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_idle" type="array">
+      <obj_property name="ElementShortName">st_idle[5:0]</obj_property>
+      <obj_property name="ObjectShortName">st_idle[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_pre" type="array">
+      <obj_property name="ElementShortName">st_pre[5:0]</obj_property>
+      <obj_property name="ObjectShortName">st_pre[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_start" type="array">
+      <obj_property name="ElementShortName">st_start[5:0]</obj_property>
+      <obj_property name="ObjectShortName">st_start[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_addr" type="array">
+      <obj_property name="ElementShortName">st_addr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">st_addr[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_wr_data" type="array">
+      <obj_property name="ElementShortName">st_wr_data[5:0]</obj_property>
+      <obj_property name="ObjectShortName">st_wr_data[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_rd_data" type="array">
+      <obj_property name="ElementShortName">st_rd_data[5:0]</obj_property>
+      <obj_property name="ObjectShortName">st_rd_data[5:0]</obj_property>
+   </wvobject>
+</wave_config>

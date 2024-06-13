@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/wang/7020/25_mdio_rw_test/rtl/mdio_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mdio_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/wang/7020/25_mdio_rw_test/rtl/mdio_dri.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mdio_dri
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/wang/7020/25_mdio_rw_test/rtl/mdio_rw_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mdio_rw_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/wang/7020/25_mdio_rw_test/sim/mdio_slave_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mdio_slave_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/wang/7020/25_mdio_rw_test/sim/tb_mdio_rw_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mdio_rw_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/wang/7020/25_mdio_rw_test/prj/mdio_rw_test.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

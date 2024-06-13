@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed May  8 23:12:56 2024
+# Process ID: 29700
+# Current directory: C:/FPGA/ov5640_udp_pc/ov5640_udp_pc.runs/async_fifo_2048x8b_synth_1
+# Command line: vivado.exe -log async_fifo_2048x8b.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source async_fifo_2048x8b.tcl
+# Log file: C:/FPGA/ov5640_udp_pc/ov5640_udp_pc.runs/async_fifo_2048x8b_synth_1/async_fifo_2048x8b.vds
+# Journal file: C:/FPGA/ov5640_udp_pc/ov5640_udp_pc.runs/async_fifo_2048x8b_synth_1\vivado.jou
+#-----------------------------------------------------------
+source async_fifo_2048x8b.tcl -notrace

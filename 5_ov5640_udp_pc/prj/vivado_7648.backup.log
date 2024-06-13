@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed May  8 23:29:06 2024
+# Process ID: 7648
+# Current directory: C:/FPGA/1_Prj_PHD/ov5640_udp_pc
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14468 C:\FPGA\1_Prj_PHD\ov5640_udp_pc\ov5640_udp_pc.xpr
+# Log file: C:/FPGA/1_Prj_PHD/ov5640_udp_pc/vivado.log
+# Journal file: C:/FPGA/1_Prj_PHD/ov5640_udp_pc\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/FPGA/1_Prj_PHD/ov5640_udp_pc/ov5640_udp_pc.xpr
+INFO: [Project 1-313] Project file moved from 'C:/FPGA/ov5640_udp_pc' since last save.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/arp/arp.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/arp/arp.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/arp/arp_rx.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/arp/arp_rx.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/arp/arp_tx.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/arp/arp_tx.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/arp/crc32_d8.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/arp/crc32_d8.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/eth_ctrl.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/eth_ctrl.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/eth_top.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/eth_top.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/gmii_to_rgmii/gmii_to_rgmii.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/gmii_to_rgmii/gmii_to_rgmii.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/ov5640/i2c_dri.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/ov5640/i2c_dri.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/ov5640/i2c_ov5640_rgb565_cfg.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/ov5640/i2c_ov5640_rgb565_cfg.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/img_data_pkt.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/img_data_pkt.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/gmii_to_rgmii/rgmii_rx.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/gmii_to_rgmii/rgmii_rx.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/gmii_to_rgmii/rgmii_tx.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/gmii_to_rgmii/rgmii_tx.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/start_transfer_ctrl.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/start_transfer_ctrl.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/udp/udp.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/udp/udp.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/udp/udp_rx.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/udp/udp_rx.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/udp/udp_tx.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/udp/udp_tx.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/ov5640_udp_pc.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/ov5640_udp_pc.v' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/arp/arp.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/arp/arp.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/arp/arp_rx.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/arp/arp_rx.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/arp/arp_tx.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/arp/arp_tx.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/arp/crc32_d8.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/arp/crc32_d8.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/eth_ctrl.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/eth_ctrl.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/eth_top.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/eth_top.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/gmii_to_rgmii/gmii_to_rgmii.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/gmii_to_rgmii/gmii_to_rgmii.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/ov5640/i2c_dri.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/ov5640/i2c_dri.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/ov5640/i2c_ov5640_rgb565_cfg.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/ov5640/i2c_ov5640_rgb565_cfg.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/img_data_pkt.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/img_data_pkt.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/gmii_to_rgmii/rgmii_rx.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/gmii_to_rgmii/rgmii_rx.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/gmii_to_rgmii/rgmii_tx.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/gmii_to_rgmii/rgmii_tx.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/start_transfer_ctrl.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/start_transfer_ctrl.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/udp/udp.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/udp/udp.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/udp/udp_rx.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/udp/udp_rx.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/udp/udp_tx.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/udp/udp_tx.v' instead.
+WARNING: [Project 1-312] File not found as 'C:/FPGA/1_Prj_PHD/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/ov5640_udp_pc.v'; using path 'C:/FPGA/ZYNQ_7020_FPGA/42_ov5640_udp_pc/rtl/ov5640_udp_pc.v' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/FPGA/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1017.895 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May  9 20:59:56 2024...

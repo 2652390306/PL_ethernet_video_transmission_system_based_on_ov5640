@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat May 18 18:28:51 2024
+# Process ID: 25820
+# Current directory: D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/prj_learn
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25024 D:\phd\FPGA\FPGA\FPGA_P\2_eth\38_mdio_rw_test\prj_learn\mdio_rw_test.xpr
+# Log file: D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/prj_learn/vivado.log
+# Journal file: D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/prj_learn\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/prj_learn/mdio_rw_test.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_mdio_rw_test.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/clk}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/rst_n}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_exec}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_rh_wl}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_addr}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_wr_data}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_done}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_rd_data}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_rd_ack}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/dri_clk}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/eth_mdc}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/eth_mdio}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/cur_state}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/next_state}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/clk_cnt}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/wr_data_t}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/addr_t}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/cnt}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_done}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/op_code}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/mdio_dir}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/mdio_out}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/rd_data_t}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/mdio_in}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/clk_divide}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/PHY_ADDR}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/CLK_DIV}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_idle}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_pre}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_start}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_addr}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_wr_data}} {{/tb_mdio_rw_test/mdio_rw_test_inst/u_mdio_dri/st_rd_data}} 
+relaunch_sim
+run all
+save_wave_config {D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/prj_learn/tb_mdio_rw_test_behav.wcfg}
+add_files -fileset sim_1 -norecurse D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/prj_learn/tb_mdio_rw_test_behav.wcfg
+set_property xsim.view D:/phd/FPGA/FPGA/FPGA_P/2_eth/38_mdio_rw_test/prj_learn/tb_mdio_rw_test_behav.wcfg [get_filesets sim_1]
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1

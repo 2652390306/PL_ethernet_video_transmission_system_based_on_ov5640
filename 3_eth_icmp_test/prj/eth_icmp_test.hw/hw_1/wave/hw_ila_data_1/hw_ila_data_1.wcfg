@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Admin/Desktop/7020/27_eth_icmp_test/prj/eth_icmp_test.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="11fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="137"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="u_icmp/u_icmp_rx/cnt" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/cnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">cnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/des_ip" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/des_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">des_ip[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">des_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/des_mac" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/des_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">des_mac[47:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">des_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/error_en" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/error_en</obj_property>
+      <obj_property name="ObjectShortName">error_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">error_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/eth_type" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/eth_type[15:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_type[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">eth_type[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/gmii_rx_dv" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/gmii_rx_dv</obj_property>
+      <obj_property name="ObjectShortName">gmii_rx_dv</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">gmii_rx_dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/icmp_checksum" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/icmp_checksum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">icmp_checksum[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">icmp_checksum[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/icmp_code" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/icmp_code[7:0]</obj_property>
+      <obj_property name="ObjectShortName">icmp_code[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">icmp_code[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/icmp_data_length" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/icmp_data_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">icmp_data_length[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">icmp_data_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/icmp_id" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/icmp_id[15:0]</obj_property>
+      <obj_property name="ObjectShortName">icmp_id[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">icmp_id[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/icmp_rx_cnt" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/icmp_rx_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">icmp_rx_cnt[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">icmp_rx_cnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/icmp_rx_data_d0" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/icmp_rx_data_d0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">icmp_rx_data_d0[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">icmp_rx_data_d0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/icmp_seq" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/icmp_seq[15:0]</obj_property>
+      <obj_property name="ObjectShortName">icmp_seq[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">icmp_seq[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/icmp_type" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/icmp_type[7:0]</obj_property>
+      <obj_property name="ObjectShortName">icmp_type[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">icmp_type[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/ip_head_byte_num" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/ip_head_byte_num[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_head_byte_num[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">ip_head_byte_num[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/next_state" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/next_state[6:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">next_state[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/gmii_rxd" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/gmii_rxd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_rxd[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">gmii_rxd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/rec_data" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/rec_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rec_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">rec_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/rec_en" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/rec_en</obj_property>
+      <obj_property name="ObjectShortName">rec_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">rec_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/rec_byte_num" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/rec_byte_num[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rec_byte_num[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">rec_byte_num[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/rec_en_cnt" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/rec_en_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rec_en_cnt[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">rec_en_cnt[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/rec_pkt_done" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/rec_pkt_done</obj_property>
+      <obj_property name="ObjectShortName">rec_pkt_done</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">rec_pkt_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/reply_checksum" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/reply_checksum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reply_checksum[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">reply_checksum[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/reply_checksum_add" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/reply_checksum_add[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reply_checksum_add[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">reply_checksum_add[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/skip_en" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/skip_en</obj_property>
+      <obj_property name="ObjectShortName">skip_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">skip_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_icmp/u_icmp_rx/total_length" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">u_icmp/u_icmp_rx/total_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">total_length[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">total_length[15:0]</obj_property>
+   </wvobject>
+</wave_config>

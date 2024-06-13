@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../eth_arp_test.gen/sources_1/ip/clk_wiz_0" \
+"../../../../eth_arp_test.gen/sources_1/ip/ila_arp_rx/sim/ila_arp_rx.v" \
+"../../../../eth_arp_test.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../eth_arp_test.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../../rtl/arp/arp.v" \
+"../../../../../rtl/arp_ctrl.v" \
+"../../../../../rtl/arp/arp_rx.v" \
+"../../../../../rtl/arp/arp_tx.v" \
+"../../../../../rtl/arp/crc32_d8.v" \
+"../../../../../rtl/gmii_to_rgmii/gmii_to_rgmii.v" \
+"../../../../../rtl/gmii_to_rgmii/rgmii_rx.v" \
+"../../../../../rtl/gmii_to_rgmii/rgmii_tx.v" \
+"../../../../../rtl/eth_arp_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

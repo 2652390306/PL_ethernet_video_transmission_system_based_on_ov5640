@@ -1,0 +1,146 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Admin/Desktop/7020/25_mdio_rw_test/prj/mdio_rw_test.sim/sim_1/behav/modelsim
+T_opt
+!s110 1687678462
+V5[I:;O[o:YVV[d5MF<fBT2
+04 15 4 work tb_mdio_rw_test fast 0
+04 4 4 work glbl fast 0
+=1-d8bbc14fe465-6497edfe-298-4300
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+vglbl
+Z2 !s110 1687678458
+!i10b 1
+!s100 aGX4R92RO3^bD43HL2j:J2
+Ii@2]DfVnUU[WE=M5a<e[a3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1605673889
+8glbl.v
+Fglbl.v
+L0 6
+Z4 OL;L;10.5;63
+r1
+!s85 0
+31
+Z5 !s108 1687678458.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+Z6 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vmdio_ctrl
+R2
+!i10b 1
+!s100 >;XXVP7K=`QLg3gGVgL7?0
+IjLeY88E?ZdHN>bF8Mf?4V0
+R3
+R0
+w1686103332
+8../../../../../rtl/mdio_ctrl.v
+F../../../../../rtl/mdio_ctrl.v
+L0 22
+R4
+r1
+!s85 0
+31
+R5
+Z7 !s107 ../../../../../sim/tb_mdio_rw_test.v|../../../../../sim/mdio_slave_interface.v|../../../../../rtl/mdio_rw_test.v|../../../../../rtl/mdio_dri.v|../../../../../rtl/mdio_ctrl.v|
+Z8 !s90 -incr|-work|xil_defaultlib|../../../../../rtl/mdio_ctrl.v|../../../../../rtl/mdio_dri.v|../../../../../rtl/mdio_rw_test.v|../../../../../sim/mdio_slave_interface.v|../../../../../sim/tb_mdio_rw_test.v|
+!i113 0
+R6
+R1
+vmdio_dri
+R2
+!i10b 1
+!s100 kZSUkY]2[DYCINdJFEQ@S2
+IJ5^PgI4LzH;c6NajSeP3c0
+R3
+R0
+w1684808506
+8../../../../../rtl/mdio_dri.v
+F../../../../../rtl/mdio_dri.v
+Z9 L0 23
+R4
+r1
+!s85 0
+31
+R5
+R7
+R8
+!i113 0
+R6
+R1
+vmdio_rw_test
+R2
+!i10b 1
+!s100 Vm;RRcfDG=^UU@VYgEcZ81
+I8Jz532VgJ6I3]]N=Vo4NE1
+R3
+R0
+w1684737330
+8../../../../../rtl/mdio_rw_test.v
+F../../../../../rtl/mdio_rw_test.v
+R9
+R4
+r1
+!s85 0
+31
+R5
+R7
+R8
+!i113 0
+R6
+R1
+vmdio_slave_interface
+R2
+!i10b 1
+!s100 h31<b6kOUR=FIz2fQMBef1
+ImU9BCeA>i2WI^DGcX[D6;2
+R3
+R0
+w1685501433
+8../../../../../sim/mdio_slave_interface.v
+F../../../../../sim/mdio_slave_interface.v
+L0 82
+R4
+r1
+!s85 0
+31
+R5
+R7
+R8
+!i113 0
+R6
+R1
+vtb_mdio_rw_test
+R2
+!i10b 1
+!s100 z?4oShVzK^o>zO[J?k5F[1
+IZg4Oh^j;WV1_>_P:efW>_2
+R3
+R0
+w1686297479
+8../../../../../sim/tb_mdio_rw_test.v
+F../../../../../sim/tb_mdio_rw_test.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R7
+R8
+!i113 0
+R6
+R1

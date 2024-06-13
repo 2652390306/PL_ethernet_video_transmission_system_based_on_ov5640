@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+E:/FPGA/wang/7020/26_eth_arp_test/prj/eth_arp_test.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+E:/FPGA/wang/7020/26_eth_arp_test/rtl/arp/arp.v,1627801095,verilog,,E:/FPGA/wang/7020/26_eth_arp_test/rtl/arp/arp_rx.v,,arp,,,,,,,,
+E:/FPGA/wang/7020/26_eth_arp_test/rtl/arp/arp_rx.v,1688346627,verilog,,E:/FPGA/wang/7020/26_eth_arp_test/rtl/arp/arp_tx.v,,arp_rx,,,,,,,,
+E:/FPGA/wang/7020/26_eth_arp_test/rtl/arp/arp_tx.v,1687773152,verilog,,E:/FPGA/wang/7020/26_eth_arp_test/rtl/arp/crc32_d8.v,,arp_tx,,,,,,,,
+E:/FPGA/wang/7020/26_eth_arp_test/rtl/arp/crc32_d8.v,1627801095,verilog,,E:/FPGA/wang/7020/26_eth_arp_test/sim/tb/tb_arp.v,,crc32_d8,,,,,,,,
+E:/FPGA/wang/7020/26_eth_arp_test/sim/tb/tb_arp.v,1686626426,verilog,,,,tb_arp,,,,,,,,
