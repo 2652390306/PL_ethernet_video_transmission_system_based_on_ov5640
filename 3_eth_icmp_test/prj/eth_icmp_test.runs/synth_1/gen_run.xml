@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7z020clg400-2" LaunchTime="1691045434">
   <File Type="PA-TCL" Name="eth_icmp_test.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="eth_icmp_test_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="eth_icmp_test_reports.tcl"/>
   <File Type="RDS-RDS" Name="eth_icmp_test.vds"/>
   <File Type="RDS-UTIL" Name="eth_icmp_test_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="eth_icmp_test_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="eth_icmp_test.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="eth_icmp_test_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="eth_icmp_test_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/ip/sync_fifo_2048x8b/sync_fifo_2048x8b.xci">
