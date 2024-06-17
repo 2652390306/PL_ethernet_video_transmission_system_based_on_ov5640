@@ -2,35 +2,27 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Fri Jun 14 12:04:28 2024
-# Process ID: 17884
+# Start of session at: Mon Jun 17 16:04:29 2024
+# Process ID: 23304
 # Current directory: E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/prj
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10528 E:\Master\FPGA\1_Prj\PL_ethernet_video_transmission_system_based_on_ov5640\3_eth_icmp_test\prj\eth_icmp_test.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27472 E:\Master\FPGA\1_Prj\PL_ethernet_video_transmission_system_based_on_ov5640\3_eth_icmp_test\prj\eth_icmp_test.xpr
 # Log file: E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/prj/vivado.log
 # Journal file: E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/prj\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/prj/eth_icmp_test.xpr
 update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-add_files -norecurse E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/rtl/icmp/icmp_rx_t.v
-update_compile_order -fileset sources_1
 launch_simulation
+open_wave_config E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/prj/tb_icmp_behav.wcfg
 source tb_icmp.tcl
-current_wave_config {Untitled 1}
-add_wave {{/tb_icmp/u_icmp/u_icmp_rx/clk}} {{/tb_icmp/u_icmp/u_icmp_rx/rst_n}} {{/tb_icmp/u_icmp/u_icmp_rx/gmii_rx_dv}} {{/tb_icmp/u_icmp/u_icmp_rx/gmii_rxd}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_pkt_done}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_en}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_data}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_byte_num}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_id}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_seq}} {{/tb_icmp/u_icmp/u_icmp_rx/reply_checksum}} {{/tb_icmp/u_icmp/u_icmp_rx/cur_st}} {{/tb_icmp/u_icmp/u_icmp_rx/next_st}} {{/tb_icmp/u_icmp/u_icmp_rx/cnt}} {{/tb_icmp/u_icmp/u_icmp_rx/st_done}} {{/tb_icmp/u_icmp/u_icmp_rx/rx_done}} {{/tb_icmp/u_icmp/u_icmp_rx/error_en}} {{/tb_icmp/u_icmp/u_icmp_rx/BOARD_MAC}} {{/tb_icmp/u_icmp/u_icmp_rx/BOARD_IP}} {{/tb_icmp/u_icmp/u_icmp_rx/st_idle}} {{/tb_icmp/u_icmp/u_icmp_rx/st_preamble}} {{/tb_icmp/u_icmp/u_icmp_rx/st_eth_head}} {{/tb_icmp/u_icmp/u_icmp_rx/st_ip_head}} {{/tb_icmp/u_icmp/u_icmp_rx/st_icmp_head}} {{/tb_icmp/u_icmp/u_icmp_rx/st_rx_data}} {{/tb_icmp/u_icmp/u_icmp_rx/st_rx_end}} 
+run all
 relaunch_sim
-relaunch_sim
-relaunch_sim
-relaunch_sim
-relaunch_sim
-current_wave_config {Untitled 1}
-add_wave {{/tb_icmp/u_icmp/u_icmp_rx/clk}} {{/tb_icmp/u_icmp/u_icmp_rx/rst_n}} {{/tb_icmp/u_icmp/u_icmp_rx/gmii_rx_dv}} {{/tb_icmp/u_icmp/u_icmp_rx/gmii_rxd}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_pkt_done}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_en}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_data}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_byte_num}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_id}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_seq}} {{/tb_icmp/u_icmp/u_icmp_rx/reply_checksum}} {{/tb_icmp/u_icmp/u_icmp_rx/cur_st}} {{/tb_icmp/u_icmp/u_icmp_rx/next_st}} {{/tb_icmp/u_icmp/u_icmp_rx/cnt}} {{/tb_icmp/u_icmp/u_icmp_rx/eth_type}} {{/tb_icmp/u_icmp/u_icmp_rx/des_mac_t}} {{/tb_icmp/u_icmp/u_icmp_rx/st_done}} {{/tb_icmp/u_icmp/u_icmp_rx/rx_done}} {{/tb_icmp/u_icmp/u_icmp_rx/error_en}} {{/tb_icmp/u_icmp/u_icmp_rx/BOARD_MAC}} {{/tb_icmp/u_icmp/u_icmp_rx/BOARD_IP}} {{/tb_icmp/u_icmp/u_icmp_rx/ETH_TYPE}} {{/tb_icmp/u_icmp/u_icmp_rx/st_idle}} {{/tb_icmp/u_icmp/u_icmp_rx/st_preamble}} {{/tb_icmp/u_icmp/u_icmp_rx/st_eth_head}} {{/tb_icmp/u_icmp/u_icmp_rx/st_ip_head}} {{/tb_icmp/u_icmp/u_icmp_rx/st_icmp_head}} {{/tb_icmp/u_icmp/u_icmp_rx/st_rx_data}} {{/tb_icmp/u_icmp/u_icmp_rx/st_rx_end}} 
-relaunch_sim
-relaunch_sim
+run all
 relaunch_sim
 update_compile_order -fileset sources_1
+current_wave_config {tb_icmp_behav.wcfg}
+add_wave {{/tb_icmp/u_icmp/u_icmp_rx/clk}} {{/tb_icmp/u_icmp/u_icmp_rx/rst_n}} {{/tb_icmp/u_icmp/u_icmp_rx/gmii_rx_dv}} {{/tb_icmp/u_icmp/u_icmp_rx/gmii_rxd}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_pkt_done}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_en}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_data}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_byte_num}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_id}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_seq}} {{/tb_icmp/u_icmp/u_icmp_rx/reply_checksum}} {{/tb_icmp/u_icmp/u_icmp_rx/cur_st}} {{/tb_icmp/u_icmp/u_icmp_rx/next_st}} {{/tb_icmp/u_icmp/u_icmp_rx/cnt}} {{/tb_icmp/u_icmp/u_icmp_rx/eth_type}} {{/tb_icmp/u_icmp/u_icmp_rx/des_mac_t}} {{/tb_icmp/u_icmp/u_icmp_rx/des_ip_t}} {{/tb_icmp/u_icmp/u_icmp_rx/st_done}} {{/tb_icmp/u_icmp/u_icmp_rx/rx_done}} {{/tb_icmp/u_icmp/u_icmp_rx/error_en}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_type}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_code}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_checksum}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_identifier}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_seq_num}} {{/tb_icmp/u_icmp/u_icmp_rx/ip_head_length}} {{/tb_icmp/u_icmp/u_icmp_rx/ip_total_length}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_data_length}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_en_cnt}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_rx_cnt}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_rx_data_d0}} {{/tb_icmp/u_icmp/u_icmp_rx/reply_checksum_add}} {{/tb_icmp/u_icmp/u_icmp_rx/BOARD_MAC}} {{/tb_icmp/u_icmp/u_icmp_rx/BOARD_IP}} {{/tb_icmp/u_icmp/u_icmp_rx/ICMP_HEAD_LENGTH}} {{/tb_icmp/u_icmp/u_icmp_rx/ETH_TYPE}} {{/tb_icmp/u_icmp/u_icmp_rx/ICMP_TYPE}} {{/tb_icmp/u_icmp/u_icmp_rx/ECHO_REQUEST}} {{/tb_icmp/u_icmp/u_icmp_rx/st_idle}} {{/tb_icmp/u_icmp/u_icmp_rx/st_preamble}} {{/tb_icmp/u_icmp/u_icmp_rx/st_eth_head}} {{/tb_icmp/u_icmp/u_icmp_rx/st_ip_head}} {{/tb_icmp/u_icmp/u_icmp_rx/st_icmp_head}} {{/tb_icmp/u_icmp/u_icmp_rx/st_rx_data}} {{/tb_icmp/u_icmp/u_icmp_rx/st_rx_end}} 
 relaunch_sim
-current_wave_config {Untitled 1}
-add_wave {{/tb_icmp/u_icmp/u_icmp_rx/clk}} {{/tb_icmp/u_icmp/u_icmp_rx/rst_n}} {{/tb_icmp/u_icmp/u_icmp_rx/gmii_rx_dv}} {{/tb_icmp/u_icmp/u_icmp_rx/gmii_rxd}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_pkt_done}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_en}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_data}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_byte_num}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_id}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_seq}} {{/tb_icmp/u_icmp/u_icmp_rx/reply_checksum}} {{/tb_icmp/u_icmp/u_icmp_rx/cur_state}} {{/tb_icmp/u_icmp/u_icmp_rx/next_state}} {{/tb_icmp/u_icmp/u_icmp_rx/skip_en}} {{/tb_icmp/u_icmp/u_icmp_rx/error_en}} {{/tb_icmp/u_icmp/u_icmp_rx/cnt}} {{/tb_icmp/u_icmp/u_icmp_rx/des_mac}} {{/tb_icmp/u_icmp/u_icmp_rx/eth_type}} {{/tb_icmp/u_icmp/u_icmp_rx/des_ip}} {{/tb_icmp/u_icmp/u_icmp_rx/ip_head_byte_num}} {{/tb_icmp/u_icmp/u_icmp_rx/total_length}} {{/tb_icmp/u_icmp/u_icmp_rx/rec_en_cnt}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_type}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_code}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_checksum}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_data_length}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_rx_cnt}} {{/tb_icmp/u_icmp/u_icmp_rx/icmp_rx_data_d0}} {{/tb_icmp/u_icmp/u_icmp_rx/reply_checksum_add}} {{/tb_icmp/u_icmp/u_icmp_rx/BOARD_MAC}} {{/tb_icmp/u_icmp/u_icmp_rx/BOARD_IP}} {{/tb_icmp/u_icmp/u_icmp_rx/st_idle}} {{/tb_icmp/u_icmp/u_icmp_rx/st_preamble}} {{/tb_icmp/u_icmp/u_icmp_rx/st_eth_head}} {{/tb_icmp/u_icmp/u_icmp_rx/st_ip_head}} {{/tb_icmp/u_icmp/u_icmp_rx/st_icmp_head}} {{/tb_icmp/u_icmp/u_icmp_rx/st_rx_data}} {{/tb_icmp/u_icmp/u_icmp_rx/st_rx_end}} {{/tb_icmp/u_icmp/u_icmp_rx/ETH_TYPE}} {{/tb_icmp/u_icmp/u_icmp_rx/ICMP_TYPE}} {{/tb_icmp/u_icmp/u_icmp_rx/ECHO_REQUEST}} 
 relaunch_sim
+relaunch_sim
+close_sim

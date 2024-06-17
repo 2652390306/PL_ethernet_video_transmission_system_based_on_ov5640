@@ -16,9 +16,12 @@
   <File Type="BITSTR-BMM" Name="eth_icmp_test_bd.bmm"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="eth_icmp_test_methodology_drc_routed.rpt"/>
   <File Type="BITSTR-MMI" Name="eth_icmp_test.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="eth_icmp_test_methodology_drc_routed.pb"/>
   <File Type="BITSTR-SYSDEF" Name="eth_icmp_test.sysdef"/>
+  <File Type="ROUTE-DRC-RPX" Name="eth_icmp_test_drc_routed.rpx"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="eth_icmp_test.ltx"/>
+  <File Type="RCFI_FILE" Name="eth_icmp_test.rcfi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="OPT-DRC" Name="eth_icmp_test_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="eth_icmp_test.hwdef"/>
@@ -48,11 +51,8 @@
   <File Type="PHYSOPT-DCP" Name="eth_icmp_test_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="eth_icmp_test_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="eth_icmp_test_postroute_physopt_bb.dcp"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="eth_icmp_test_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="eth_icmp_test_drc_routed.rpx"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="eth_icmp_test_methodology_drc_routed.rpx"/>
   <File Type="PDI-FILE" Name="eth_icmp_test.pdi"/>
-  <File Type="RCFI_FILE" Name="eth_icmp_test.rcfi"/>
   <File Type="CFI_FILE" Name="eth_icmp_test.cfi"/>
   <File Type="RNPI_FILE" Name="eth_icmp_test.rnpi"/>
   <File Type="NPI_FILE" Name="eth_icmp_test.npi"/>

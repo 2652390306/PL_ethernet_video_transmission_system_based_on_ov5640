@@ -299,14 +299,22 @@ always @(posedge clk or negedge rst_n) begin
                 end 
 				else;
             end 
-            st_rx_data : begin         
+            st_rx_data : begin  
+                /*
+                    1.数据分块：将要计算校验和的数据按16位（2字节）一组进行分块。
+                        如果数据总长度为奇数个字节，在计算之前，需在末尾补一个字节的零（0x00）。
+                    2.求和：对所有16位的块进行二进制求和，得到一个32位的中间结果。
+                    3.高低位相加：如果求和结果超过16位，需要将溢出的高16位与低16位再相加，直到结果在16位范围内。
+                        比如，如果求和结果为0x12345，则需要将0x2345（低16位）与0x1（高16位）相加，得到0x2346。
+                    4.取反：对求和结果按位取反，得到最终的校验和。
+                */       
                 //接收数据           
                 if(gmii_rx_dv) begin
                     rec_en_cnt <= rec_en_cnt + 2'd1;
                     icmp_rx_cnt <= icmp_rx_cnt + 16'd1;
 					rec_data <= gmii_rxd;
 					rec_en <= 1'b1;
-					
+
 					//判断接收到数据的奇偶个数
                    if (icmp_rx_cnt == icmp_data_length - 1) begin                      
                         icmp_rx_data_d0 <= 8'h00;
@@ -323,9 +331,8 @@ always @(posedge clk or negedge rst_n) begin
                         else
                             reply_checksum_add <= reply_checksum_add; 
                     end
-                    
 					else;
-					
+
                     if(icmp_rx_cnt == icmp_data_length - 16'd1) begin
                         skip_en <= 1'b1;                    //有效数据接收完成
                         icmp_rx_cnt <= 16'd0;
@@ -336,6 +343,7 @@ always @(posedge clk or negedge rst_n) begin
 					else;
                 end
 				else;
+
             end
             st_rx_end : begin                               //单包数据接收完成
 				rec_en <= 1'b0;
@@ -352,3 +360,5 @@ always @(posedge clk or negedge rst_n) begin
 end
 
 endmodule
+
+

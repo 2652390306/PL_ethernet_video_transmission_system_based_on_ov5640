@@ -2,8 +2,8 @@
 # Webtalk v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Mon Jun 17 12:53:24 2024
-# Process ID: 12824
+# Start of session at: Mon Jun 17 11:05:12 2024
+# Process ID: 21908
 # Current directory: E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/prj/eth_icmp_test.sim/sim_1/behav/xsim
 # Command line: wbtcv.exe -mode batch -source E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/prj/eth_icmp_test.sim/sim_1/behav/xsim/xsim.dir/tb_icmp_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/prj/eth_icmp_test.sim/sim_1/behav/xsim/webtalk.log

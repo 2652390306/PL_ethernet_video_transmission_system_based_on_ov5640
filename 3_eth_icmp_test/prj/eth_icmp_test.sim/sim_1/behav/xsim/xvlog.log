@@ -1,2 +1,10 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/rtl/icmp/icmp_rx.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module icmp_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/rtl/arp/crc32_d8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crc32_d8
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/rtl/icmp/icmp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module icmp
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/rtl/icmp/icmp_rx_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module icmp_rx_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/rtl/icmp/icmp_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module icmp_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/sim/tb_icmp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_icmp

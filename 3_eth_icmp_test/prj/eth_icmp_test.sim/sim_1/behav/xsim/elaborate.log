@@ -8,16 +8,16 @@ WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 fo
 Completed static elaboration
 Starting simulation data flow analysis
 WARNING: [XSIM 43-4099] "E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/rtl/icmp/icmp.v" Line 23. Module icmp(BOARD_IP=32'b11000000101010000000000100001010,DES_IP=32'b11000000101010000000000100001010) doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/rtl/icmp/icmp_rx.v" Line 23. Module icmp_rx(BOARD_IP=32'b11000000101010000000000100001010) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/rtl/icmp/icmp_rx_t.v" Line 1. Module icmp_rx_t(BOARD_IP=32'b11000000101010000000000100001010) doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/rtl/icmp/icmp_tx.v" Line 23. Module icmp_tx(BOARD_IP=32'b11000000101010000000000100001010,DES_IP=32'b11000000101010000000000100001010,ECHO_REPLY=8'b01000) doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/rtl/arp/crc32_d8.v" Line 22. Module crc32_d8 doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/rtl/icmp/icmp.v" Line 23. Module icmp(BOARD_IP=32'b11000000101010000000000100001010,DES_IP=32'b11000000101010000000000100001010) doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/rtl/icmp/icmp_rx.v" Line 23. Module icmp_rx(BOARD_IP=32'b11000000101010000000000100001010) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/rtl/icmp/icmp_rx_t.v" Line 1. Module icmp_rx_t(BOARD_IP=32'b11000000101010000000000100001010) doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/rtl/icmp/icmp_tx.v" Line 23. Module icmp_tx(BOARD_IP=32'b11000000101010000000000100001010,DES_IP=32'b11000000101010000000000100001010,ECHO_REPLY=8'b01000) doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "E:/Master/FPGA/1_Prj/PL_ethernet_video_transmission_system_based_on_ov5640/3_eth_icmp_test/rtl/arp/crc32_d8.v" Line 22. Module crc32_d8 doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.icmp_rx(BOARD_IP=32'b11000000101...
+Compiling module xil_defaultlib.icmp_rx_t(BOARD_IP=32'b110000001...
 Compiling module xil_defaultlib.icmp_tx(BOARD_IP=32'b11000000101...
 Compiling module xil_defaultlib.crc32_d8
 Compiling module xil_defaultlib.icmp(BOARD_IP=32'b11000000101010...

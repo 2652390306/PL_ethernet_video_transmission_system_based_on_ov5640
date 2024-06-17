@@ -82,7 +82,7 @@ always #(T/2) gmii_clk = ~gmii_clk;
 always @(posedge gmii_clk or negedge sys_rst_n) begin
     if(!sys_rst_n) begin
         tx_start_en <= 1'b0;
-        tx_data <= 32'h_00_00_00_00;
+        tx_data <= 32'h00_00_00_00_00;
         tx_byte_num <= 1'b0;
         des_mac <= 1'b0;
         des_ip <= 1'b0;

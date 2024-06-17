@@ -2,7 +2,7 @@
 verilog xil_defaultlib  --include "../../../../eth_icmp_test.gen/sources_1/ip/clk_wiz_0" \
 "../../../../../rtl/arp/crc32_d8.v" \
 "../../../../../rtl/icmp/icmp.v" \
-"../../../../../rtl/icmp/icmp_rx.v" \
+"../../../../../rtl/icmp/icmp_rx_t.v" \
 "../../../../../rtl/icmp/icmp_tx.v" \
 "../../../../../sim/tb_icmp.v" \
 

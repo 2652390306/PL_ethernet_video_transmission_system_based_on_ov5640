@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_icmp_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_icmp" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="387120fs"></ZoomStartTime>
+      <ZoomEndTime time="1085621fs"></ZoomEndTime>
+      <Cursor1Time time="460000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="183"></NameColumnWidth>
+      <ValueColumnWidth column_width="88"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="41" />
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/gmii_rx_dv" type="logic">
+      <obj_property name="ElementShortName">gmii_rx_dv</obj_property>
+      <obj_property name="ObjectShortName">gmii_rx_dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/gmii_rxd" type="array">
+      <obj_property name="ElementShortName">gmii_rxd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_rxd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/rec_pkt_done" type="logic">
+      <obj_property name="ElementShortName">rec_pkt_done</obj_property>
+      <obj_property name="ObjectShortName">rec_pkt_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/rec_en" type="logic">
+      <obj_property name="ElementShortName">rec_en</obj_property>
+      <obj_property name="ObjectShortName">rec_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/rec_data" type="array">
+      <obj_property name="ElementShortName">rec_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rec_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/rec_byte_num" type="array">
+      <obj_property name="ElementShortName">rec_byte_num[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rec_byte_num[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/icmp_id" type="array">
+      <obj_property name="ElementShortName">icmp_id[15:0]</obj_property>
+      <obj_property name="ObjectShortName">icmp_id[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/icmp_seq" type="array">
+      <obj_property name="ElementShortName">icmp_seq[15:0]</obj_property>
+      <obj_property name="ObjectShortName">icmp_seq[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/reply_checksum" type="array">
+      <obj_property name="ElementShortName">reply_checksum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reply_checksum[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/cur_state" type="array">
+      <obj_property name="ElementShortName">cur_state[6:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_state[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[6:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/skip_en" type="logic">
+      <obj_property name="ElementShortName">skip_en</obj_property>
+      <obj_property name="ObjectShortName">skip_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/error_en" type="logic">
+      <obj_property name="ElementShortName">error_en</obj_property>
+      <obj_property name="ObjectShortName">error_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/des_mac" type="array">
+      <obj_property name="ElementShortName">des_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">des_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/eth_type" type="array">
+      <obj_property name="ElementShortName">eth_type[15:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_type[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/des_ip" type="array">
+      <obj_property name="ElementShortName">des_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">des_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/ip_head_byte_num" type="array">
+      <obj_property name="ElementShortName">ip_head_byte_num[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_head_byte_num[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/total_length" type="array">
+      <obj_property name="ElementShortName">total_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">total_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/rec_en_cnt" type="array">
+      <obj_property name="ElementShortName">rec_en_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rec_en_cnt[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/icmp_type" type="array">
+      <obj_property name="ElementShortName">icmp_type[7:0]</obj_property>
+      <obj_property name="ObjectShortName">icmp_type[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/icmp_code" type="array">
+      <obj_property name="ElementShortName">icmp_code[7:0]</obj_property>
+      <obj_property name="ObjectShortName">icmp_code[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/icmp_checksum" type="array">
+      <obj_property name="ElementShortName">icmp_checksum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">icmp_checksum[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/icmp_data_length" type="array">
+      <obj_property name="ElementShortName">icmp_data_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">icmp_data_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/icmp_rx_cnt" type="array">
+      <obj_property name="ElementShortName">icmp_rx_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">icmp_rx_cnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/icmp_rx_data_d0" type="array">
+      <obj_property name="ElementShortName">icmp_rx_data_d0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">icmp_rx_data_d0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/reply_checksum_add" type="array">
+      <obj_property name="ElementShortName">reply_checksum_add[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reply_checksum_add[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/BOARD_MAC" type="array">
+      <obj_property name="ElementShortName">BOARD_MAC[47:0]</obj_property>
+      <obj_property name="ObjectShortName">BOARD_MAC[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/BOARD_IP" type="array">
+      <obj_property name="ElementShortName">BOARD_IP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BOARD_IP[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/st_idle" type="array">
+      <obj_property name="ElementShortName">st_idle[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_idle[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/st_preamble" type="array">
+      <obj_property name="ElementShortName">st_preamble[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_preamble[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/st_eth_head" type="array">
+      <obj_property name="ElementShortName">st_eth_head[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_eth_head[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/st_ip_head" type="array">
+      <obj_property name="ElementShortName">st_ip_head[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_ip_head[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/st_icmp_head" type="array">
+      <obj_property name="ElementShortName">st_icmp_head[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_icmp_head[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/st_rx_data" type="array">
+      <obj_property name="ElementShortName">st_rx_data[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_rx_data[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/st_rx_end" type="array">
+      <obj_property name="ElementShortName">st_rx_end[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_rx_end[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/ETH_TYPE" type="array">
+      <obj_property name="ElementShortName">ETH_TYPE[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ETH_TYPE[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/ICMP_TYPE" type="array">
+      <obj_property name="ElementShortName">ICMP_TYPE[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ICMP_TYPE[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_icmp/u_icmp/u_icmp_rx/ECHO_REQUEST" type="array">
+      <obj_property name="ElementShortName">ECHO_REQUEST[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ECHO_REQUEST[7:0]</obj_property>
+   </wvobject>
+</wave_config>

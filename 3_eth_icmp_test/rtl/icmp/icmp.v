@@ -57,10 +57,10 @@ parameter  DES_IP   = {8'd192,8'd168,8'd1,8'd102};
 wire          crc_en         ; //CRC开始校验使能
 wire          crc_clr        ; //CRC数据复位信号 
 wire  [7:0]   crc_d8         ; //输入待校验8位数据
-                             
+
 wire  [31:0]  crc_data       ; //CRC校验数据
 wire  [31:0]  crc_next       ; //CRC下次校验完成数据
-                             
+
 wire  [15:0]  icmp_id        ; //ICMP标识符:对于每一个发送的数据报进行标识
 wire  [15:0]  icmp_seq       ; //ICMP序列号:对于发送的每一个数据报文进行编号
                                //比如:发送的第一个数据报序列号为1，第二个序列号为2
@@ -73,7 +73,7 @@ wire  [31:0]  reply_checksum ; //接收的icmp数据部分校验和
 assign  crc_d8 = gmii_txd;
 
 //以太网接收模块    
-icmp_rx 
+icmp_rx_t
    #(
     .BOARD_MAC       (BOARD_MAC),    //参数例化
     .BOARD_IP        (BOARD_IP )
